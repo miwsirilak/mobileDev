@@ -4,7 +4,7 @@
       "id": 1,
       "num": "001",
       "name": "ปลาแซลมอน",
-      "img": "https://stickershop.line-scdn.net/sticonshop/v1/sticon/5e003320031a67c29d10eb82/iPhone/001.png",
+      "img": "https://raw.githubusercontent.com/miwsirilak/mobileDev/master/topfish/assets/icons/fish1.jpg",
       "type": [
         "เถาะ",
         "มะเมีย",
@@ -38,7 +38,7 @@
       "id": 2,
       "num": "002",
       "name": "ปลาดุก",
-      "img": "https://stickershop.line-scdn.net/sticonshop/v1/sticon/5e003320031a67c29d10eb82/iPhone/002.png",
+      "img": "https://raw.githubusercontent.com/miwsirilak/mobileDev/master/topfish/assets/icons/fish2.jpg",
       "type": [
         "ขาล",
         "ฉลู",
@@ -72,7 +72,7 @@
       "id": 3,
       "num": "003",
       "name": "ปลากระพง",
-      "img": "https://stickershop.line-scdn.net/sticonshop/v1/sticon/5e003320031a67c29d10eb82/iPhone/003.png",
+      "img": "https://raw.githubusercontent.com/miwsirilak/mobileDev/master/topfish/assets/icons/fish3.jpg",
       "type": [
         "ฉลู",
         "มะโรง",
@@ -143,7 +143,7 @@
       "id": 5,
       "num": "005",
       "name": "ปลาเก๋า",
-      "img": "https://stickershop.line-scdn.net/sticonshop/v1/sticon/5e003320031a67c29d10eb82/iPhone/005.png",
+      "img": "https://raw.githubusercontent.com/miwsirilak/mobileDev/master/topfish/assets/icons/fish5%20.jpg",
       "type": [
         "เถาะ",
         "มะโรง",
@@ -177,7 +177,7 @@
       "id": 6,
       "num": "006",
       "name": "ปลาทับทิม",
-      "img": "https://stickershop.line-scdn.net/sticonshop/v1/sticon/5e003320031a67c29d10eb82/iPhone/006.png",
+      "img": "https://raw.githubusercontent.com/miwsirilak/mobileDev/master/topfish/assets/icons/fish6.JPEG",
       "type": [
         "มะแม",
         "วอก",
@@ -211,7 +211,7 @@
       "id": 7,
       "num": "007",
       "name": "ปลาช่อน",
-      "img": "https://stickershop.line-scdn.net/sticonshop/v1/sticon/5e003320031a67c29d10eb82/iPhone/007.png",
+      "img": "https://raw.githubusercontent.com/miwsirilak/mobileDev/master/topfish/assets/icons/fish7.jpg",
       "type": [
         "ฉลู",
         "ขาล",
@@ -244,7 +244,7 @@
       "id": 8,
       "num": "008",
       "name": "ปลาจะละเม็ดขาว",
-      "img": "https://stickershop.line-scdn.net/sticonshop/v1/sticon/5e003320031a67c29d10eb82/iPhone/008.png",
+      "img": "https://raw.githubusercontent.com/miwsirilak/mobileDev/master/topfish/assets/icons/fish8.jpg",
       "type": [
         "มะโรง",
         "มะเส็ง",
@@ -278,7 +278,7 @@
       "id": 9,
       "num": "009",
       "name": "ปลาทู",
-      "img": "https://stickershop.line-scdn.net/sticonshop/v1/sticon/5e003320031a67c29d10eb82/iPhone/009.png",
+      "img": "https://raw.githubusercontent.com/miwsirilak/mobileDev/master/topfish/assets/icons/fish9.jpg",
       "type": [
         "เถาะ",
         "มะเส็ง",
@@ -311,7 +311,7 @@
       "id": 10,
       "num": "010",
       "name": "ปลาทูน่า",
-      "img": "https://stickershop.line-scdn.net/sticonshop/v1/sticon/5e003320031a67c29d10eb82/iPhone/010.png",
+      "img": "https://raw.githubusercontent.com/miwsirilak/mobileDev/master/topfish/assets/icons/fish10.jpg",
       "type": [
         "มะโรง",
         "มะเส็ง",
