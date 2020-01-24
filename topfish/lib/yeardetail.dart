@@ -9,10 +9,10 @@ class YearDetail extends StatelessWidget {
   bodyWidget(BuildContext context) => Stack(
         children: <Widget>[
           Positioned(
-            height: MediaQuery.of(context).size.height / 1.5,
+            height: MediaQuery.of(context).size.height / 1.9,
             width: MediaQuery.of(context).size.width - 25,
             left: 12.0,
-            top: MediaQuery.of(context).size.height * 0.13,
+            top: MediaQuery.of(context).size.height * 0.15,
             child: Card(
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15.0),
@@ -85,7 +85,7 @@ class YearDetail extends StatelessWidget {
                 tag: pokemon.img,
                 child: Container(
                   height: 190.0,
-                  width: 190.0,
+                  width: 200.0,
                   decoration: BoxDecoration(
                       image: DecorationImage(
                           fit: BoxFit.cover, image: NetworkImage(pokemon.img))),
