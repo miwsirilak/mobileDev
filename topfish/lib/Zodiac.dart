@@ -13,7 +13,7 @@ class ZodiacPage extends StatefulWidget {
 
 class ZodiacPageState extends State<ZodiacPage> {
   var url =
-      "https://raw.githubusercontent.com/chadaporn29797/tiktry/master/rasi.json";
+      "https://raw.githubusercontent.com/miwsirilak/mobileDev/master/topfish/assets/rasi.json";
 
   PokeHub pokeHub;
 
@@ -31,8 +31,6 @@ class ZodiacPageState extends State<ZodiacPage> {
     print(pokeHub.toJson());
     setState(() {});
   }
-
-
 
   @override
   Widget build(BuildContext context) {
@@ -71,8 +69,8 @@ class ZodiacPageState extends State<ZodiacPage> {
                                   Container(
                                     height: MediaQuery.of(context).size.height *
                                         0.14,
-                                    width:
-                                        MediaQuery.of(context).size.width * 0.28,
+                                    width: MediaQuery.of(context).size.width *
+                                        0.28,
                                     decoration: BoxDecoration(
                                         image: DecorationImage(
                                             fit: BoxFit.cover,
@@ -94,7 +92,6 @@ class ZodiacPageState extends State<ZodiacPage> {
                       ))
                   .toList(),
             ),
-    
     );
   }
 }
