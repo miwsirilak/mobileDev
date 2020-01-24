@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'Year.dart';
 import 'home.dart';
 import 'Zodiac.dart';
 import 'about.dart';
@@ -13,7 +14,7 @@ class _BarNavyState extends State<BarNavy> {
   final List<Widget> _children = [
     HomePage(),
     ZodiacPage(),
-    AboutMePage(),
+    YearPage(),
     AboutMePage()
   ];
   PageController _pageController;
@@ -48,9 +49,9 @@ class _BarNavyState extends State<BarNavy> {
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(title: Text('Home'), icon: Icon(Icons.home)),
           BottomNavigationBarItem(
-              title: Text('Zodiac'), icon: Icon(Icons.star)),
+              title: Text('10 ชนิดปลาสวยงาม'), icon: Icon(Icons.star)),
           BottomNavigationBarItem(
-            title: Text('Year'),
+            title: Text('ปลาที่คนไทยนิยมบริโภค'),
             icon: Icon(Icons.pets),
           ),
           BottomNavigationBarItem(
