@@ -13,7 +13,7 @@ class YearPage extends StatefulWidget {
 
 class YearPageState extends State<YearPage> {
   var url =
-      "https://raw.githubusercontent.com/chadaporn29797/tiktry/master/year.json";
+      "https://raw.githubusercontent.com/miwsirilak/mobileDev/master/topfish/assets/year.json";
 
   PokeHub pokeHub;
 
@@ -37,7 +37,7 @@ class YearPageState extends State<YearPage> {
     return Scaffold(
       backgroundColor: Colors.pink[100],
       appBar: AppBar(
-        title: Text("The Year of The Zodiac"),
+        title: Text("10 ปลาที่คนไทยนิยมบริโภค"),
         backgroundColor: Colors.pink[800],
       ),
       body: pokeHub == null
@@ -94,6 +94,4 @@ class YearPageState extends State<YearPage> {
             ),
     );
   }
-
-  YearDetail({Pokemon pokemon}) {}
 }
