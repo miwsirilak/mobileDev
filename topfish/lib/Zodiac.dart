@@ -35,10 +35,10 @@ class ZodiacPageState extends State<ZodiacPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.orange[400],
+      backgroundColor: Colors.lightBlueAccent[100],
       appBar: AppBar(
         title: Text("10 อันดับ ชนิดปลาสวยงาม"),
-        backgroundColor: Colors.orange,
+        backgroundColor: Colors.indigoAccent,
       ),
       body: pokeHub == null
           ? Center(
@@ -85,7 +85,7 @@ class ZodiacPageState extends State<ZodiacPage> {
                                   )
                                 ],
                               ),
-                              color: Colors.orange[300],
+                              color: Colors.lightBlueAccent,
                             ),
                           ),
                         ),

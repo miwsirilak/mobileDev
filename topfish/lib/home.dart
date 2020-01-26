@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class HomePage extends StatefulWidget {
   HomePage({Key key}) : super(key: key);
 
@@ -9,22 +8,19 @@ class HomePage extends StatefulWidget {
 }
 
 class HomePageState extends State<HomePage> {
-
-
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.pink[400],
+    var scaffold = Scaffold(
+        backgroundColor: Colors.indigoAccent[100],
         appBar: AppBar(
-        title: Text("Top Fish"),
-        backgroundColor: Colors.orange,
-      ),body: Center(
-        child: Text( 'Home'
-
+          title: Text("TOP FISH"),
+          backgroundColor: Colors.indigoAccent,
         ),
-      )
-    );
-    
-    
+        body: Center(
+          child: Text('Home'),
+        ));
+    return scaffold;
   }
 }
+
+// video

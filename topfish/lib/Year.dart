@@ -35,10 +35,10 @@ class YearPageState extends State<YearPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.pink[100],
+      backgroundColor: Colors.lightBlueAccent[100],
       appBar: AppBar(
         title: Text("10 ปลาที่คนไทยนิยมบริโภค"),
-        backgroundColor: Colors.pink[800],
+        backgroundColor: Colors.indigoAccent,
       ),
       body: pokeHub == null
           ? Center(
@@ -85,7 +85,7 @@ class YearPageState extends State<YearPage> {
                                   )
                                 ],
                               ),
-                              color: Colors.redAccent[100],
+                              color: Colors.lightBlueAccent,
                             ),
                           ),
                         ),

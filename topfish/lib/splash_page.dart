@@ -19,13 +19,13 @@ class _SplashPageState extends State<SplashPage> {
           style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 30.0,
-              color: Colors.pink[300],
+              color: Colors.white,
               fontStyle: FontStyle.italic),
         ),
         image: Image.asset('assets/icons/icon1.gif'),
-        backgroundColor: Colors.pink[100],
+        backgroundColor: Colors.indigoAccent,
         styleTextUnderTheLoader: TextStyle(color: Colors.deepPurple),
         photoSize: 150.0,
-        loaderColor: Colors.pink[100]);
+        loaderColor: Colors.white);
   }
 }

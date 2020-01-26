@@ -43,20 +43,20 @@ class _BarNavyState extends State<BarNavy> {
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Color(0xffffcc5c),
         currentIndex: _selectedIndex,
-        selectedItemColor: Colors.amber[800],
+        selectedItemColor: Colors.lightGreenAccent[400],
         unselectedItemColor: Colors.blueGrey,
         onTap: onTappedBar,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(title: Text('Home'), icon: Icon(Icons.home)),
           BottomNavigationBarItem(
-              title: Text('10 ชนิดปลาสวยงาม'), icon: Icon(Icons.star)),
+              title: Text('10 ชนิดปลาสวยงาม'), icon: Icon(Icons.favorite)),
           BottomNavigationBarItem(
             title: Text('ปลาที่คนไทยนิยมบริโภค'),
-            icon: Icon(Icons.pets),
+            icon: Icon(Icons.restaurant_menu),
           ),
           BottomNavigationBarItem(
-            title: Text('Me'),
-            icon: Icon(Icons.face),
+            title: Text('Fish'),
+            icon: Icon(Icons.crop_original),
           ),
         ],
       ),
