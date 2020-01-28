@@ -11,6 +11,7 @@ dependencies:
   http: ^0.12.0+4
   splashscreen: ^1.2.0
   flutter_launcher_icons: ^0.7.4
+  youtube_player: ^0.6.0
   flutter:
     sdk: flutter
   sqflite:
@@ -19,8 +20,8 @@ dependencies:
 flutter_icons:
   ios: true
   android: true
-  image_path_ios: "asset/images/tik1.png"
-  image_path_android: "asset/images/tik1.png"
+  image_path_ios: "assets/icons/icon.png"
+  image_path_android: "assets/icons/icon.png"
 
   cupertino_icons: ^0.1.2
 
@@ -38,6 +39,7 @@ flutter:
      - assets/icons/icon1.gif
      - assets/icons/icon2.jpg
      - assets/icons/icon3.png
+     - assets/icons/fishs.jpg
 
 cupertino_icons: ^0.1.2  
 splashscreen: any

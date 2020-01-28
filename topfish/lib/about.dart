@@ -11,30 +11,36 @@ class AboutMePage extends StatefulWidget {
 }
 
 class AboutMePageState extends State<AboutMePage> {
-  double size = 200;
+  double currentOpacity = 0;
+  Animation<double> starAnimation;
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.indigoAccent[100],
-      appBar: AppBar(
-        title: Text("FISH"),
-        backgroundColor: Colors.indigoAccent,
-      ),
-      body: Center(
-          child: AnimatedContainer(
-        // เพิ่ม
-        width: size, //
-        height: size, //
-        color: Colors.orange[400], //
-        duration: Duration(milliseconds: 500), //
-      )),
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.play_arrow),
-        onPressed: () {
-          setState(() {
-            size = size + 50; // เพิ่ม
-          });
-        },
+    return new MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: new Scaffold(
+        backgroundColor: Color(0xFF42A5F5),
+        appBar: AppBar(
+          title: Text("FISH"),
+          backgroundColor: Colors.indigoAccent,
+        ),
+        body: new Center(
+          child: AnimatedOpacity(
+            opacity: currentOpacity,
+            duration: Duration(seconds: 1),
+            child: Image.asset("assets/icons/icon1.gif"),
+          ),
+        ),
+        floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.play_arrow),
+          onPressed: () {
+            // เพิ่ม on pressed
+            setState(() {
+              currentOpacity = currentOpacity == 0 ? 1 : 0;
+            });
+          },
+          backgroundColor: Color(0xFFff0844),
+        ),
       ),
     );
   }
