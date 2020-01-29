@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'Year.dart';
+import 'popular.dart';
 import 'home.dart';
-import 'Zodiac.dart';
+import 'Beautiful.dart';
 import 'about.dart';
 
 class BarNavy extends StatefulWidget {
@@ -13,8 +13,8 @@ class _BarNavyState extends State<BarNavy> {
   int _selectedIndex = 0;
   final List<Widget> _children = [
     HomePage(),
-    ZodiacPage(),
-    YearPage(),
+    BeautifulPage(),
+    PopularPage(),
     AboutMePage()
   ];
   PageController _pageController;

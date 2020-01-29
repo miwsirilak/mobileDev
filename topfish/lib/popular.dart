@@ -1,19 +1,21 @@
+// TODO Implement this library.
+
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'rasi.dart';
-import 'rasidetail.dart';
+import 'Beautiful-fish.dart';
+import 'populardetail.dart';
 
-class ZodiacPage extends StatefulWidget {
+class PopularPage extends StatefulWidget {
   @override
-  ZodiacPageState createState() {
-    return new ZodiacPageState();
+  PopularPageState createState() {
+    return new PopularPageState();
   }
 }
 
-class ZodiacPageState extends State<ZodiacPage> {
+class PopularPageState extends State<PopularPage> {
   var url =
-      "https://raw.githubusercontent.com/miwsirilak/mobileDev/master/topfish/assets/rasi.json";
+      "https://raw.githubusercontent.com/miwsirilak/mobileDev/master/topfish/assets/popular.json";
 
   PokeHub pokeHub;
 
@@ -37,7 +39,7 @@ class ZodiacPageState extends State<ZodiacPage> {
     return Scaffold(
       backgroundColor: Colors.lightBlueAccent[100],
       appBar: AppBar(
-        title: Text("10 อันดับ ชนิดปลาสวยงาม"),
+        title: Text("10 ปลาที่คนไทยนิยมบริโภค"),
         backgroundColor: Colors.indigoAccent,
       ),
       body: pokeHub == null
@@ -54,7 +56,7 @@ class ZodiacPageState extends State<ZodiacPage> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => PokeDetail(
+                                    builder: (context) => PopularDetail(
                                           pokemon: poke,
                                         )));
                           },
@@ -68,9 +70,9 @@ class ZodiacPageState extends State<ZodiacPage> {
                                 children: <Widget>[
                                   Container(
                                     height: MediaQuery.of(context).size.height *
-                                        0.14,
+                                        0.10,
                                     width: MediaQuery.of(context).size.width *
-                                        0.28,
+                                        0.19,
                                     decoration: BoxDecoration(
                                         image: DecorationImage(
                                             fit: BoxFit.cover,

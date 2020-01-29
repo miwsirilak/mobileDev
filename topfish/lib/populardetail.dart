@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'rasi.dart';
+import 'Beautiful-fish.dart';
 
-class PokeDetail extends StatelessWidget {
+class PopularDetail extends StatelessWidget {
   final Pokemon pokemon;
 
-  PokeDetail({this.pokemon});
+  PopularDetail({this.pokemon});
 
   bodyWidget(BuildContext context) => Stack(
         children: <Widget>[
           Positioned(
             height: MediaQuery.of(context).size.height / 1.9,
             width: MediaQuery.of(context).size.width - 25,
-            left: 9.0,
-            top: MediaQuery.of(context).size.height * 0.10,
+            left: 12.0,
+            top: MediaQuery.of(context).size.height * 0.15,
             child: Card(
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15.0),
@@ -28,10 +28,10 @@ class PokeDetail extends StatelessWidget {
                     style:
                         TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
                   ),
-                  // Text("ช่วงวัน: ${pokemon.height}"),
+                  // Text("👉 ${pokemon.height}"),
                   Text("....${pokemon.weight}...."),
                   // Text(
-                  //   "สีที่ถูกโฉลก",
+                  //   "ปีสมพงศ์",
                   //   style: TextStyle(fontWeight: FontWeight.bold),
                   // ),
                   // Row(
@@ -43,21 +43,7 @@ class PokeDetail extends StatelessWidget {
                   //           onSelected: (b) {}))
                   //       .toList(),
                   // ),
-                  // Text("สิ่งที่เชื่อมโยงกับคนราศีนี้",
-                  //     style: TextStyle(fontWeight: FontWeight.bold)),
-                  // Row(
-                  //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  //   children: pokemon.weaknesses
-                  //       .map((t) => FilterChip(
-                  //           backgroundColor: Colors.red,
-                  //           label: Text(
-                  //             t,
-                  //             style: TextStyle(color: Colors.white),
-                  //           ),
-                  //           onSelected: (b) {}))
-                  //       .toList(),
-                  // ),
-                  // Text("ดาวประจำราศี",
+                  // Text("ธาตุประจำปี",
                   //     style: TextStyle(fontWeight: FontWeight.bold)),
                   // Row(
                   //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -73,6 +59,21 @@ class PokeDetail extends StatelessWidget {
                   //                 onSelected: (b) {},
                   //               ))
                   //           .toList(),
+                  // ),
+                  // Text("มิ่งขวัญโชคลาบ",
+                  //     style: TextStyle(fontWeight: FontWeight.bold)),
+                  // Row(
+                  //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  //   children: pokemon.weaknesses
+                  //       .map((n) => FilterChip(
+                  //             backgroundColor: Colors.blue,
+                  //             label: Text(
+                  //               n,
+                  //               style: TextStyle(color: Colors.white),
+                  //             ),
+                  //             onSelected: (b) {},
+                  //           ))
+                  //       .toList(),
                   // )
                 ],
               ),
